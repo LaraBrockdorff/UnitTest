@@ -47,7 +47,7 @@ public class HelloWorldTest {
 
     @Test
     public void testStandardMessage_withNameNull(){
-        
+
         //Exercise
         String msg = helloWorld.getMessage(null);
 
