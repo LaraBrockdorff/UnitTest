@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7622010-5be3-4a9f-8bc1-9b9002405ed6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,36 +53,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/Calculator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-              <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#249#250#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/CalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="170">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="262">
+              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +99,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/uom/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/uom/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -186,7 +178,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570526364801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570527771093" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -213,20 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.uom.HelloWorld" />
-      <module name="cps3230unitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.uom.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringCalculatorTest">
     <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cps3230unitTests" />
       <extension name="coverage">
@@ -255,7 +234,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorldTest.testStandardMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cps3230unitTests" />
       <extension name="coverage">
         <pattern>
@@ -264,8 +243,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="edu.uom" />
-      <option name="MAIN_CLASS_NAME" value="edu.uom.HelloWorldTest" />
-      <option name="METHOD_NAME" value="testStandardMessage" />
+      <option name="MAIN_CLASS_NAME" value="edu.uom.StringCalculatorTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.add_withNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cps3230unitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uom" />
+      <option name="MAIN_CLASS_NAME" value="edu.uom.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="add_withNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.add_withNull" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.edu.uom in cps3230unitTests" />
         <item itemvalue="JUnit.HelloWorldTest" />
-        <item itemvalue="JUnit.HelloWorldTest.testStandardMessage" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -309,15 +302,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloWorldTest_testStandardMessage - 2019.10.08 at 10h 47m 03s.xml">
-      <configuration name="HelloWorldTest.testStandardMessage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloWorldTest - 2019.10.08 at 10h 48m 01s.xml">
-      <configuration name="HelloWorldTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloWorldTest - 2019.10.08 at 10h 50m 44s.xml">
-      <configuration name="HelloWorldTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="edu_uom_in_cps3230unitTests - 2019.10.08 at 10h 51m 57s.xml">
       <configuration name="edu.uom in cps3230unitTests" configurationId="JUnit" />
     </history-entry>
@@ -339,6 +323,15 @@
     <history-entry file="CalculatorTest - 2019.10.08 at 11h 15m 43s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.10.08 at 11h 39m 28s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest_add_withNull - 2019.10.08 at 11h 41m 05s.xml">
+      <configuration name="StringCalculatorTest.add_withNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.10.08 at 11h 41m 14s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -349,7 +342,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -357,7 +350,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,8 +419,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="170">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
