@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7622010-5be3-4a9f-8bc1-9b9002405ed6" name="Default Changelist" comment="" />
+    <list default="true" id="e7622010-5be3-4a9f-8bc1-9b9002405ed6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uom/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uom/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/uom/HelloWorldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/uom/HelloWorldTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +12,17 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cps3230unitTests$HelloWorldTest.ic" NAME="HelloWorldTest Coverage Results" MODIFIED="1570524444794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.uom.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/cps3230unitTests$edu_uom_in_cps3230unitTests.ic" NAME="edu.uom in cps3230unitTests Coverage Results" MODIFIED="1570524876313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.uom.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="57" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -24,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/HelloWorld.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="170">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding>
                 <element signature="e#80#81#0" expanded="true" />
                 <element signature="e#104#105#0" expanded="true" />
@@ -37,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/HelloWorldTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            <state relative-caret-position="110">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,6 +127,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cps3230unitTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cps3230unitTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="uom" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,7 +142,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570524101614" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570525213381" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -147,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HelloWorldTest.testStandardMessage">
+  <component name="RunManager" selected="JUnit.edu.uom in cps3230unitTests">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.uom.HelloWorld" />
       <module name="cps3230unitTests" />
@@ -157,6 +179,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cps3230unitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uom" />
+      <option name="MAIN_CLASS_NAME" value="edu.uom.HelloWorldTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,8 +213,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="edu.uom in cps3230unitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cps3230unitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uom" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.edu.uom in cps3230unitTests" />
+        <item itemvalue="JUnit.HelloWorldTest" />
         <item itemvalue="JUnit.HelloWorldTest.testStandardMessage" />
         <item itemvalue="Application.HelloWorld" />
       </list>
@@ -197,6 +249,32 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HelloWorldTest_testStandardMessage - 2019.10.08 at 10h 41m 48s.xml">
+      <configuration name="HelloWorldTest.testStandardMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest_testStandardMessage - 2019.10.08 at 10h 47m 03s.xml">
+      <configuration name="HelloWorldTest.testStandardMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2019.10.08 at 10h 48m 01s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2019.10.08 at 10h 50m 44s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="edu_uom_in_cps3230unitTests - 2019.10.08 at 10h 51m 57s.xml">
+      <configuration name="edu.uom in cps3230unitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="edu_uom_in_cps3230unitTests - 2019.10.08 at 10h 53m 47s.xml">
+      <configuration name="edu.uom in cps3230unitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloWorldTest - 2019.10.08 at 10h 54m 27s.xml">
+      <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="edu_uom_in_cps3230unitTests - 2019.10.08 at 10h 55m 11s.xml">
+      <configuration name="edu.uom in cps3230unitTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
@@ -206,7 +284,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -224,6 +302,7 @@
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
+      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.35384616" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -239,8 +318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <element signature="e#80#81#0" expanded="true" />
             <element signature="e#104#105#0" expanded="true" />
@@ -250,8 +329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/HelloWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="110">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
