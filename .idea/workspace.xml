@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7622010-5be3-4a9f-8bc1-9b9002405ed6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,20 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="160">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#111#112#0" expanded="true" />
@@ -98,8 +97,8 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/uom/HelloWorldTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uom/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/uom/CalculatorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java" />
       </list>
     </option>
   </component>
@@ -178,7 +177,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570527771093" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570528286522" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -302,24 +301,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="edu_uom_in_cps3230unitTests - 2019.10.08 at 10h 51m 57s.xml">
-      <configuration name="edu.uom in cps3230unitTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="edu_uom_in_cps3230unitTests - 2019.10.08 at 10h 53m 47s.xml">
-      <configuration name="edu.uom in cps3230unitTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HelloWorldTest - 2019.10.08 at 10h 54m 27s.xml">
-      <configuration name="HelloWorldTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="edu_uom_in_cps3230unitTests - 2019.10.08 at 10h 55m 11s.xml">
-      <configuration name="edu.uom in cps3230unitTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="edu_uom_in_cps3230unitTests - 2019.10.08 at 11h 00m 16s.xml">
-      <configuration name="edu.uom in cps3230unitTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2019.10.08 at 11h 15m 06s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest - 2019.10.08 at 11h 15m 43s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -330,6 +311,24 @@
       <configuration name="StringCalculatorTest.add_withNull" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StringCalculatorTest - 2019.10.08 at 11h 41m 14s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.10.08 at 11h 42m 15s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.10.08 at 11h 42m 54s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.10.08 at 11h 47m 18s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.10.08 at 11h 49m 05s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.10.08 at 11h 49m 25s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringCalculatorTest - 2019.10.08 at 11h 50m 04s.xml">
       <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -417,17 +416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        <state relative-caret-position="160">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#111#112#0" expanded="true" />
@@ -435,6 +427,13 @@
             <element signature="e#189#190#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>

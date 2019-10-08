@@ -43,4 +43,28 @@ public class StringCalculatorTest {
         assertEquals(0,result);
     }
 
+    @Test
+    public void add_withOneNumber(){
+
+        //exercise
+        int result = calc.add("123");
+        assertEquals(123,result);
+    }
+
+    @Test
+    public void add_withOneNumber_Negative(){
+
+        //exercise
+        int result = calc.add("-123");
+        assertEquals(-123,result);
+    }
+
+    @Test
+    public void add_withNonNumeric(){
+
+        //exercise
+        int result = calc.add("boop");
+        assertEquals(-1,result);
+    }
+
 }
