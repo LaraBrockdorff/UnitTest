@@ -178,4 +178,20 @@ public class StudentDBTest {
         assertTrue(spyConnection.count()>count);
     }
 
+    @Test
+    public  void testDBIsNotCalledWhenDBIsNotDirty(){
+
+        //SetUp
+        StudentDBConnectionSuccessSpy spyConnection = new StudentDBConnectionSuccessSpy();
+        studentDB.addStudent(student);
+        studentDB.commit(spyConnection);
+        int count = spyConnection.count();
+
+        //Exercise
+        studentDB.commit(spyConnection);
+
+        //Verify
+        assertEquals(count,spyConnection.count() );
+    }
+
 }

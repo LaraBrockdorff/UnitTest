@@ -45,6 +45,10 @@ public class StudentDB {
     }
 
     public boolean commit(DBConnection dbConnection) {
+
+        if(!isDirty()){
+            return true;
+        }
         boolean result = true;
 
         for(Student s : db){
