@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7622010-5be3-4a9f-8bc1-9b9002405ed6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uom/studentdb/DBConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uom/studentdb/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/uom/studentdb/StudentDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/StudentDBTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/stubs/StubDBConnectionFail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/stubs/StubDBConnectionSuccess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/spies/StudentDBConnectionSuccessSpy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uom/studentdb/StudentDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/uom/studentdb/StudentDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/StudentDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/StudentDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/uom/studentdb/StudentDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/uom/studentdb/StudentDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/uom/studentdb/StudentDBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/uom/studentdb/StudentDBTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,11 +80,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/studentdb/StudentDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+            <state relative-caret-position="126">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#144#153#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#447#448#0" expanded="true" />
               </folding>
@@ -106,12 +108,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/studentdb/StudentDBTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+            <state relative-caret-position="177">
+              <caret line="177" column="32" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
                 <element signature="e#314#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/studentdb/spies/StudentDBConnectionSuccessSpy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,8 +190,9 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/uom/StudentDBTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/uom/studentdb/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/stubs/StubDBConnectionSuccess.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/uom/studentdb/StudentDB.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/stubs/StubDBConnectionFail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uom/studentdb/StudentDB.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/spies/StudentDBConnectionSuccessSpy.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/uom/studentdb/StudentDBTest.java" />
       </list>
     </option>
@@ -283,7 +300,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570778243135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570780189584" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -311,21 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDBTest">
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cps3230unitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.uom.studentdb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.uom" />
-      <option name="MAIN_CLASS_NAME" value="edu.uom.CalculatorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StudentDBTest.testDBIsCalledWhenDBIsDirty">
     <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cps3230unitTests" />
       <extension name="coverage">
@@ -340,22 +343,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTest.add_withNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cps3230unitTests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.uom.studentdb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.uom" />
-      <option name="MAIN_CLASS_NAME" value="edu.uom.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="add_withNull" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentDBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cps3230unitTests" />
       <extension name="coverage">
@@ -366,6 +353,38 @@
       </extension>
       <option name="PACKAGE_NAME" value="edu.uom.studentdb" />
       <option name="MAIN_CLASS_NAME" value="edu.uom.studentdb.StudentDBTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDBTest.testDBIsCalledWhenDBIsDirty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cps3230unitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uom.studentdb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uom.studentdb" />
+      <option name="MAIN_CLASS_NAME" value="edu.uom.studentdb.StudentDBTest" />
+      <option name="METHOD_NAME" value="testDBIsCalledWhenDBIsDirty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDBTest.testDrirtyFlagSetToFalseAfterCreaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cps3230unitTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uom.studentdb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.uom.studentdb" />
+      <option name="MAIN_CLASS_NAME" value="edu.uom.studentdb.StudentDBTest" />
+      <option name="METHOD_NAME" value="testDrirtyFlagSetToFalseAfterCreaction" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,11 +407,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentDBTest.testDBIsCalledWhenDBIsDirty" />
         <item itemvalue="JUnit.StudentDBTest" />
+        <item itemvalue="JUnit.StudentDBTest.testDrirtyFlagSetToFalseAfterCreaction" />
         <item itemvalue="JUnit.StudentDBTest.testRemoveStudentNotInDB" />
         <item itemvalue="JUnit.StringCalculatorTest" />
-        <item itemvalue="JUnit.StringCalculatorTest.add_withNull" />
-        <item itemvalue="JUnit.CalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -410,18 +429,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentDBTest - 2019.10.11 at 08h 41m 59s.xml">
-      <configuration name="StudentDBTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDBTest - 2019.10.11 at 08h 43m 44s.xml">
-      <configuration name="StudentDBTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDBTest - 2019.10.11 at 08h 44m 54s.xml">
-      <configuration name="StudentDBTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentDBTest - 2019.10.11 at 08h 46m 36s.xml">
-      <configuration name="StudentDBTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentDBTest - 2019.10.11 at 08h 47m 42s.xml">
       <configuration name="StudentDBTest" configurationId="JUnit" />
     </history-entry>
@@ -439,6 +446,18 @@
     </history-entry>
     <history-entry file="StudentDBTest - 2019.10.11 at 09h 16m 44s.xml">
       <configuration name="StudentDBTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDBTest_testDrirtyFlagSetToFalseAfterCreaction - 2019.10.11 at 09h 29m 52s.xml">
+      <configuration name="StudentDBTest.testDrirtyFlagSetToFalseAfterCreaction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDBTest - 2019.10.11 at 09h 31m 49s.xml">
+      <configuration name="StudentDBTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDBTest - 2019.10.11 at 09h 41m 43s.xml">
+      <configuration name="StudentDBTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentDBTest_testDBIsCalledWhenDBIsDirty - 2019.10.11 at 09h 49m 14s.xml">
+      <configuration name="StudentDBTest.testDBIsCalledWhenDBIsDirty" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -573,15 +592,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/studentdb/StudentDB.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/studentdb/stubs/StubDBConnectionFail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        <state relative-caret-position="85">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#144#153#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -598,22 +616,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/studentdb/stubs/StubDBConnectionFail.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uom/studentdb/StudentDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        <state relative-caret-position="126">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#144#153#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/studentdb/spies/StudentDBConnectionSuccessSpy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/uom/studentdb/StudentDBTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
+        <state relative-caret-position="177">
+          <caret line="177" column="32" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />

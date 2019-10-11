@@ -1,5 +1,6 @@
 package edu.uom.studentdb;
 
+import edu.uom.studentdb.spies.StudentDBConnectionSuccessSpy;
 import edu.uom.studentdb.stubs.StubDBConnectionFail;
 import edu.uom.studentdb.stubs.StubDBConnectionSuccess;
 import org.junit.After;
@@ -114,6 +115,67 @@ public class StudentDBTest {
         //Verify
         assertTrue(!result);
 
+    }
+
+    @Test
+    public void testDrirtyFlagSetToFalseAfterCreaction(){
+
+        //Verify
+        assertFalse(studentDB.isDirty());
+
+    }
+
+    @Test
+    public void testDirtyFlagToTrueAfterAddingStudent(){
+
+        //Exercise
+        studentDB.addStudent(student);
+
+        //Verify
+        assertTrue(studentDB.isDirty());
+    }
+
+    @Test
+    public void testDirtyFlagToTrueAfterRemovingStudent(){
+
+        //setup
+        studentDB.addStudent(student);
+        studentDB.commit(new StubDBConnectionSuccess());
+
+        //Exercise
+        studentDB.removeStudent(student.getId());
+
+        //Verify
+        assertTrue(studentDB.isDirty());
+    }
+
+    @Test
+    public void testDrityFalgSetToFalseAfterCommiting(){
+
+        //Exercise
+        studentDB.addStudent(student);
+        studentDB.commit(new StubDBConnectionSuccess());
+
+        //Verify
+        assertFalse(studentDB.isDirty());
+
+    }
+
+
+    @Test
+    public  void testDBIsCalledWhenDBIsDirty(){
+
+        //SetUp
+        StudentDBConnectionSuccessSpy spyConnection = new StudentDBConnectionSuccessSpy();
+        int count = spyConnection.count();
+        studentDB.addStudent(student);
+
+
+        //Exercise
+        studentDB.commit(spyConnection);
+
+        //Verify
+        assertTrue(spyConnection.count()>count);
     }
 
 }

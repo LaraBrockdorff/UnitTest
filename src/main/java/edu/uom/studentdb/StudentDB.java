@@ -6,10 +6,20 @@ import java.util.List;
 public class StudentDB {
 
     private List<Student> db = new ArrayList<Student>();
+    private boolean dirty = false;
+
+    public boolean isDirty() {
+        return dirty;
+    }
+
+    public void setDirty(boolean dirty) {
+        this.dirty = dirty;
+    }
 
     public void addStudent(Student s){
         if(getStudentById(s.getId())==null){
             db.add(s);
+            setDirty(true);
         }
 
 
@@ -18,6 +28,7 @@ public class StudentDB {
 
     public void removeStudent(int id){
         db.remove(getStudentById(id));
+        setDirty(true);
 
     }
 
@@ -41,6 +52,7 @@ public class StudentDB {
                 result =false;
             }
         }
+        setDirty(false);
         return result;
     }
 }
