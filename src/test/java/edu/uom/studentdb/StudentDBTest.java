@@ -11,6 +11,7 @@ import org.mockito.Mockito;
 
 import static org.junit.Assert.*;
 
+
 public class StudentDBTest {
     public final int DEFAULT_STUDENT_ID =1;
     public final int INVALID_ID =5;
@@ -230,4 +231,37 @@ public class StudentDBTest {
         assertEquals(count,spyConnection.count() );
     }
 
+
+    @Test
+    public  void testDBIsNotCalledWhenDBIsNotDirty_Mock(){
+
+        //SetUp
+        StudentDBConnectionSuccessSpy spyConnection = new StudentDBConnectionSuccessSpy();
+        studentDB.addStudent(student);
+        studentDB.commit(spyConnection);
+        int count = spyConnection.count();
+
+        //Exercise
+        studentDB.commit(spyConnection);
+
+        //Verify
+        assertEquals(count,spyConnection.count() );
+    }
+
+    @Test
+    public  void testDBIsCalledWhenDBIsDirty_Mock(){
+
+        //SetUp
+        DBConnection dbConnection = Mockito.mock(DBConnection.class);
+//        int count = spyConnection.count();
+        studentDB.addStudent(student);
+
+
+        //Exercise
+        studentDB.commit(dbConnection);
+
+        //Verify
+        Mockito.verify(dbConnection, Mockito.times(1))
+                .commitStudent(Matchers.any(Student.class));
+    }
 }
