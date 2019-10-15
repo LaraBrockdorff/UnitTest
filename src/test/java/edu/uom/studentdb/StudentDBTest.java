@@ -6,6 +6,8 @@ import edu.uom.studentdb.stubs.StubDBConnectionSuccess;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Matchers;
+import org.mockito.Mockito;
 
 import static org.junit.Assert.*;
 
@@ -103,10 +105,44 @@ public class StudentDBTest {
     }
 
     @Test
+    public void testCommitWithSuccessfulDBConnection_Mock(){
+
+        //Setup
+        DBConnection dbConnection =  Mockito.mock(DBConnection.class);
+        Mockito.when(dbConnection.commitStudent(student)).thenReturn(0);
+      //  Mockito.when(dbConnection.commitStudent(Matchers.any(Student.class))).thenReturn(0);
+
+        studentDB.addStudent(student);
+
+        //Exercise
+        boolean result =studentDB.commit(dbConnection);
+
+        //Verify
+        assertTrue(result);
+
+    }
+
+    @Test
     public void testCommitWithFailureDBConnection(){
 
         //Setup
         DBConnection dbConnection = new StubDBConnectionFail();
+        studentDB.addStudent(student);
+
+        //Exercise
+        boolean result =studentDB.commit(dbConnection);
+
+        //Verify
+        assertTrue(!result);
+
+    }
+
+    @Test
+    public void testCommitWithFailureDBConnection_Mock(){
+
+        //Setup
+        DBConnection dbConnection = Mockito.mock(DBConnection.class);
+        Mockito.when(dbConnection.commitStudent(student)).thenReturn(1);
         studentDB.addStudent(student);
 
         //Exercise
